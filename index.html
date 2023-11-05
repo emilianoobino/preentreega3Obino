@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>cd de musica.net</title>
+</head>
+<body>
+    <header>CD de musica.net</header>
+    <h1>Aquí podras armar un listado con las canciones que más te gustan</h1>
+    <div>
+        <label for="artista">Artista: </label>
+        <input type="text" id="artista">
+    </div>
+    <div>
+        <label for="titulo">Título: </label>
+        <input type="text" id="titulo">
+        <label for="duracion">Duración: </label>
+        <input type="number" id="duracion">
+    </div>
+    <button id="agregarArtista">Agregar Artista</button>
+    <button id="agregarCancion">Agregar Canción</button>
+    <button id="mostrarCanciones">Mostrar Canciones</button>
+    <button id="eliminarArtista">Eliminar Artista</button>
+    <button id="eliminarCancion">Eliminar Canción</button>
+    <button id="mostrarTodasLasCanciones">Mostrar Todas las Canciones</button>
+    <div id="resultados"></div>
+    <div id="avisos"></div>
+    <ul id="listaCanciones"></ul>
+  <footer>cd de musica.net 2023</footer>
+    <script src="./main.js"></script>
+</body>
+</html>
